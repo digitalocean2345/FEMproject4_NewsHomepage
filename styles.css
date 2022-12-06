@@ -32,6 +32,12 @@ body{
     background-color: white;
 }
 
+a{
+    text-decoration: none;
+    transition: all 0.3sec ease;
+}
+
+
 .container{
     margin: 50px auto;
     display: flex;
@@ -44,7 +50,7 @@ body{
 .new-section{
     display: flex;
     flex-direction: column;
-    
+    background-color: var(--very-dark-blue);
 }
 .second-heading{
     font-size: 4rem;
@@ -53,6 +59,19 @@ body{
     margin-bottom: 2rem;
 }
 
+.new-item-title-link{
+    font-size: 2rem;
+    font-weight: 900;
+    color: hst(0deg, 0%, 89%);
+}
+
+.new-item-para{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+    color: var(--dark-grayish-blue);
+}
 /*Base section*/
 .base-section{
     display: flex;
