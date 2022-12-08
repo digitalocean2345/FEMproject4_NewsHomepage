@@ -31,7 +31,7 @@ Users should be able to:
 ![](./solution/tablet-screenshot.png)
 - tablet screenshot
 
-![](./solution/desktop-screenshot.png)
+![](./solution/mobile-screenshot.png)
 - mobile screenshot
 
 ### Links
